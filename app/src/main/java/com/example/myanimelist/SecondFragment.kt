@@ -30,10 +30,25 @@ class SecondFragment : Fragment() {
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
+
+        setListener()
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    private fun setListener(){
+        val view = listOf<View>(binding.buttonOneSecondfragment)
+        for(item in view){
+            item.setOnClickListener{
+                buttonReaction(it)
+            }
+        }
+    }
+
+    private fun buttonReaction(it: View) {
+        binding.boxSecondSecondFragment.visibility = View.VISIBLE
+        when (it.id) {
+            R.id.button_one_secondfragment -> binding.boxSecondSecondFragment.text ="Errore. Ritenta più tardi"
+
+        }
+
     }
 }

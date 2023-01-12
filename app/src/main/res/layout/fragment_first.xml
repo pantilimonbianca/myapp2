@@ -4,52 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".FirstFragment"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/box_one_text"
-        android:layout_width="213dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="280dp"
         android:text="@string/hello_world"
-        android:textAlignment="center"
-        android:textColor="#F44336"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StyleCenterTitle" />
 
     <Button
         android:id="@+id/button_one"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/cliccami"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/box_one_text"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.346"
+        style="@style/buttonStyle" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="63dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="174dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="3dp"
-        android:contentDescription="@string/descrizione_avatar"
-        app:layout_constraintBottom_toTopOf="@+id/button_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:id="@+id/imageAnimeView"
+        android:layout_width="374dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        android:contentDescription="animeView"
+        android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_text"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="ImageContrastCheck"
-        tools:src="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anime_giapponese_png" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
