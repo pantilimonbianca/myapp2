@@ -8,19 +8,19 @@
     tools:context=".ThirdFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/box_one_thirdfragment"
         android:layout_width="172dp"
         android:layout_height="58dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="336dp"
-        android:text="Accedi per continuare"
+        android:text="@string/accedi_per_continuare"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="@dimen/body_text_height"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/hello_blank_fragment" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonThird"
@@ -28,9 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
         android:layout_marginEnd="159dp"
+        android:textAlignment="center"
         android:text="ACCEDI"
+        android:textSize="@dimen/button_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_thirdfragment" />
+        app:layout_constraintTop_toBottomOf="@+id/box_one_thirdfragment"
+        style="@style/buttonStyle"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

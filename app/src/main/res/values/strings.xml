@@ -6,15 +6,13 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="indietro">Indietro</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="cliccami">Cliccami</string>
     <string name="hello_world">Hello world!</string>
     <string name="descrizione_avatar">descrizione avatar</string>
     <string name="button_one_secondfragment">Errore. Riprova più tardi</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accedi_per_continuare">Accedi per continuare</string>
     <string name="ops_qualcosa_andato_storto">Ops! Qualcosa è andato storto... :(</string>
     <string name="riprova">Riprova</string>
 </resources>

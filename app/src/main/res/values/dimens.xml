@@ -1,6 +1,8 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="text_title_height">48dp</dimen>
-    <dimen name="body_text_height">24dp</dimen>
-
+    <dimen name="fab_margin">16sp</dimen>
+    <dimen name="text_title_height">48sp</dimen>
+    <dimen name="body_text_height">20sp</dimen>
+    <dimen name="button_size">15sp</dimen>
+    <dimen name="image_size_h">250sp</dimen>
+    <dimen name="image_size_w">380sp</dimen>
 </resources>

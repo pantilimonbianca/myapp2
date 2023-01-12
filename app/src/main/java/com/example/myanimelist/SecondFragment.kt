@@ -44,9 +44,9 @@ class SecondFragment : Fragment() {
     }
 
     private fun buttonReaction(it: View) {
-        binding.boxSecondSecondFragment.visibility = View.VISIBLE
+        binding.boxOneSecondFragment.visibility = View.VISIBLE
         when (it.id) {
-            R.id.button_one_secondfragment -> binding.boxSecondSecondFragment.text ="Errore. Ritenta più tardi"
+            R.id.button_one_secondfragment -> binding.boxOneSecondFragment.text ="Errore. Ritenta più tardi"
 
         }
 
