@@ -15,4 +15,7 @@
     <string name="accedi_per_continuare">Accedi per continuare</string>
     <string name="ops_qualcosa_andato_storto">Ops! Qualcosa è andato storto... :(</string>
     <string name="riprova">Riprova</string>
+    <string name="inserisci_la_tua_email">inserisci la tua email...</string>
+    <string name="accedi">ACCEDI</string>
+
 </resources>

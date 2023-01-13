@@ -14,7 +14,7 @@
         android:layout_width="172dp"
         android:layout_height="58dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="240dp"
         android:text="@string/accedi_per_continuare"
         android:textAlignment="center"
         android:textSize="@dimen/body_text_height"
@@ -22,18 +22,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <EditText
+        android:id="@+id/AccessoEmail"
+        android:layout_width="249dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:hint="@string/inserisci_la_tua_email"
+        android:inputType="textWebEmailAddress"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_one_thirdfragment"
+        tools:ignore="TextContrastCheck"
+        android:autofillHints="" />
+
     <Button
         android:id="@+id/buttonThird"
+        style="@style/buttonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
+        android:layout_marginTop="125dp"
         android:layout_marginEnd="159dp"
+        android:text="@string/accedi"
         android:textAlignment="center"
-        android:text="ACCEDI"
         android:textSize="@dimen/button_size"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_thirdfragment"
-        style="@style/buttonStyle"/>
+        app:layout_constraintTop_toBottomOf="@+id/AccessoEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
