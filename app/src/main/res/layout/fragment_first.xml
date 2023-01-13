@@ -10,11 +10,11 @@
     <TextView
         android:id="@+id/box_one_text"
         style="@style/StyleCenterTitle"
-        android:layout_width="267dp"
-        android:layout_height="58dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_title_size"
         android:layout_marginTop="312dp"
         android:text="@string/hello_world"
-        android:textSize="@dimen/text_title_height"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,6 +22,7 @@
     <Button
         android:id="@+id/button_one"
         style="@style/buttonStyle"
+        android:layout_height="wrap_content"
         android:text="@string/cliccami"
         android:textSize="@dimen/button_size"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,13 +34,15 @@
 
     <ImageView
         android:id="@+id/imageAnimeView"
-        android:layout_width="@dimen/image_size_w"
-        android:layout_height="@dimen/image_size_h"
+        android:layout_width="376dp"
+        android:layout_height="199dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="76dp"
-        android:contentDescription="animeView"
+        android:contentDescription="@string/animeview"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
+        android:textAlignment="center"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anime_giapponese_png" />

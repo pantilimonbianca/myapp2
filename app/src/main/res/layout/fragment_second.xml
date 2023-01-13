@@ -9,41 +9,45 @@
 
     <Button
         android:id="@+id/button_second"
+        style="@style/buttonStyle"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:foregroundGravity="center|center_horizontal"
+        android:gravity="center|center_horizontal"
         android:text="@string/indietro"
         android:textSize="@dimen/button_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_one_secondfragment" />
 
     <TextView
         android:id="@+id/box_one_secondFragment"
-        android:layout_width="162dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="144dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:text="@string/ops_qualcosa_andato_storto"
         android:textAlignment="center"
         android:textColor="#FB1302"
-        android:textSize="@dimen/body_text_height"
+        android:textSize="@dimen/body_text_size"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_one_secondfragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/buttonStyle"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
         android:layout_marginStart="175dp"
-        android:layout_marginTop="102dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="180dp"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center|center_horizontal"
         android:text="@string/riprova"
         android:textSize="@dimen/button_size"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_one_secondFragment" />
 
