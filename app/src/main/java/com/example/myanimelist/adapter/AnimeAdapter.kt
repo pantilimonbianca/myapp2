@@ -4,6 +4,7 @@ package com.example.myanimelist
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myanimelist.model.AnimeName
@@ -11,6 +12,7 @@ import com.example.myanimelist.model.AnimeName
 
 class AnimeAdapter( val dataset: List<AnimeName> ): RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder>(){
     class AnimeViewHolder(view:View): RecyclerView.ViewHolder(view){
+        val animeImage: ImageView= view.findViewById(R.id.anime_image)
         val animeName: TextView = view.findViewById(R.id.anime_name)
         val animeNumberEp: TextView= view.findViewById(R.id.anime_number_ep)
 
@@ -23,6 +25,7 @@ class AnimeAdapter( val dataset: List<AnimeName> ): RecyclerView.Adapter<AnimeAd
     override fun onBindViewHolder(holder: AnimeViewHolder, position: Int) {
         holder.animeName.text= dataset[position].animeName
         holder.animeNumberEp.text= dataset[position].animeNumberEp
+        holder.animeImage.setImageResource(dataset[position].drawableId)
 
 
     }

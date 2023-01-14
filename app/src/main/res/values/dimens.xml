@@ -6,6 +6,6 @@
     <dimen name="body_text_size">28sp</dimen>
     <dimen name="button_size">20sp</dimen>
 
-    <dimen name="image_size_h">250sp</dimen>
-    <dimen name="image_size_w">380sp</dimen>
+    <dimen name="image_size_h">199sp</dimen>
+    <dimen name="image_size_w">376sp</dimen>
 </resources>
