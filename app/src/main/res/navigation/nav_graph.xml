@@ -39,6 +39,6 @@
     <fragment
         android:id="@+id/fourthFragment"
         android:name="com.example.myanimelist.FourthFragment"
-        android:label="fragment_fourth"
+        android:label="Lista Anime"
         tools:layout="@layout/fragment_fourth" />
 </navigation>

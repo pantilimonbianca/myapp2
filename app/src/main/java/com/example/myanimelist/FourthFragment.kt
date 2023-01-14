@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myanimelist.databinding.FragmentFourthBinding
+import com.example.myanimelist.data.Datasource
 import com.example.myanimelist.model.AnimeName
 
 
