@@ -2,8 +2,13 @@
 <resources>
     <dimen name="fab_margin">36sp</dimen>
 
-    <dimen name="button_size">55sp</dimen>
-    <dimen name="image_size_h">450sp</dimen>
-    <dimen name="image_size_w">1000sp</dimen>
+    <dimen name="text_title_size">60sp</dimen>
+
+    <dimen name="body_text_size">48sp</dimen>
+    <dimen name="button_size">40sp</dimen>
+
+    <dimen name="image_size_h">350sp</dimen>
+    <dimen name="image_size_w">680sp</dimen>
+
 
 </resources>

@@ -10,6 +10,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.myanimelist.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -47,8 +48,22 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
+
         return when (item.itemId) {
-            R.id.action_settings -> true
+            R.id.action_login -> {
+                Toast.makeText(this, "Work in progress", Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.action_logout -> {
+                Toast.makeText(this, "Work in progress", Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.action_settings -> {
+                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
+                true
+            }
+
+
             else -> super.onOptionsItemSelected(item)
         }
     }

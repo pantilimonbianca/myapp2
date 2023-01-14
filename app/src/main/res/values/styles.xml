@@ -7,7 +7,7 @@
         <item name="android:layout_marginTop">280dp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">#F44336</item>
-        <item name="android:textSize">30sp</item>
+
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
     </style>
@@ -19,7 +19,7 @@
         <item name="android:gravity">center</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">15sp</item>
+
         <item name="android:textStyle">bold</item>
     </style>
 </resources>

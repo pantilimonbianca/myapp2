@@ -30,6 +30,10 @@ class FirstFragment : Fragment() {
         binding.buttonOne.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_ThirdFragment)
         }
+
+        binding.buttonForList.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_FourthFragment)
+        }
     }
 
     override fun onDestroyView() {

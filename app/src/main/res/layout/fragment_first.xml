@@ -10,7 +10,6 @@
     <TextView
         android:id="@+id/box_one_text"
         style="@style/StyleCenterTitle"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/text_title_size"
         android:layout_marginTop="312dp"
@@ -46,6 +45,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anime_giapponese_png" />
+
+    <Button
+        android:id="@+id/button_for_list"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/lista_anime"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_one" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
